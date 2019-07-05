@@ -3,21 +3,30 @@
     <link href = "css/style.css" type = "text/css" rel = "stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One|Russo+One&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
-  <body>
-    <div class="headertop">
-      <h1 style="margin-left:3.4vw;">ETSII WAR BOT</h1>
-      <h1 style="display: inline;margin-left: 3.5vw; font-size: 1.4vw;">Próxima batalla</h1>
-      <h1 id="demo"></h1>
+  <body style="background: #cfc29b; margin: 0; padding: 0;">
+
+    <div class="container-fluid">
+      <div class="headertop row">
+        <div class="col-12 col-md-5">
+          <h1 id="part1">ETSII WAR BOT</h1>
+        </div>
+        <div class="col-12 col-md-7">
+          <h1 id="part2">Próxima batalla</h1>
+          <h1 id="demo"></h1>
+        </div>
+      </div>
     </div>
 
 
-    <div style="position: fixed; bottom: 0; height: 4vw;background: #0080FF; width: 100%;">
+
+    <div class="footera">
       <p></p>
       <h1 id="pow">Creado por La rETSIIstencia</h1>
       <h1 id="pow2">Síguenos en instagram</h1>
-      <a style="display: inline; margin-left: 1.7vw; position:fixed; right: 10vw; bottom: 0.85vw;" href="https://www.instagram.com/?hl=es">
-        <img src="images/insta.png" width="40px" height="40px">
+      <a href="https://www.instagram.com/?hl=es">
+        <img src="images/insta.png">
       </a>
     </div>
 
@@ -58,5 +67,5 @@
         }
       }, 1000);
     </script>
-
+  </body>
 </html>

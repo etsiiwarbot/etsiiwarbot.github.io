@@ -1,16 +1,34 @@
 body {
-  background: #cfc29b;
-  margin: 0;
-  padding: 0;
+
 }
+
+.parte1 {
+  margin-left:3.4vw;
+}
+
+.parte2 {
+  display: inline;
+  margin-left: 3.5vw;
+  font-size: 1.4vw;
+  text-align: center;
+}
+
 h1 {
     font-family: 'Rubik Mono One', sans-serif;
     color: #0080FF;
-    font-size: 3vw;
     display: inline;
 }
 
+#part1 {
+  font-size: 2.5vw;
+}
+
+#part2 {
+  font-size: 1vw;
+}
+
 #demo {
+  font-size: 2.5vw;
   margin-left: 1.14vw;
   border: 0.17vw solid white;
   border-radius: 0.23vw;
@@ -34,4 +52,67 @@ h1 {
   font-family: 'Russo One', sans-serif;
   color: white;
   font-size: 1.7vw;
+}
+
+.footera {
+  position: fixed;
+  bottom: 0;
+  height: 4vw;
+  background: #0080FF;
+  width: 100%;
+}
+
+.footera a {
+  display: inline;
+  margin-left: 1.7vw;
+  position:fixed;
+  right: 10vw;
+  bottom: 0.75vw;
+}
+
+img {
+  width: 2.5vw;
+  height: 2.5vw;
+}
+
+@media (max-width:767px) {
+
+  #part1 {
+    text-align: center;
+    font-size: 5vw;
+  }
+
+  #part2 {
+    font-size: 2.5vw;
+  }
+
+#demo {
+  font-size: 5vw;
+}
+
+}
+
+@media (max-width:970px) {
+
+#pow2 {
+  display: none;
+}
+
+#pow {
+  font-size: 4vw;
+}
+
+.footera {
+  height: 10vw;
+}
+
+.footera a {
+  bottom: 1vw;
+}
+
+img {
+  width: 8vw;
+  height: 8vw;
+}
+
 }
