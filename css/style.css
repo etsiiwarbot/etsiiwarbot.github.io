@@ -34,6 +34,7 @@ h1 {
   border-radius: 0.23vw;
   background: #0080FF;
   color: white;
+  visibility: hidden;
 }
 
 .headertop {
