@@ -37,5 +37,6 @@ function timer() {
 
 $(document).ready(function() {
   // Update the count down every 1 second
+  timer();
   setInterval(timer, 1000);
 });
